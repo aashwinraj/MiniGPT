@@ -1,16 +1,10 @@
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
-# Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
-
-# Imported translations (automatically generated from CSV files)
-*.translation
-
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
+# Ignore cache, models, and temp files 
+__pycache__/ 
+*.pt 
+*.pth 
+*.ckpt 
+venv/ 
+.env 
+*.log 
+.ipynb_checkpoints/ 
+checkpoint_epoch_3/ 
